@@ -6,8 +6,6 @@ from tqdm import tqdm
 from glob import glob
 #from mtcnn_cv2 import MTCNN
 
-from yoloface import face_analysis
-
 import torch, face_detection
 from models import Wav2Lip
 import platform
